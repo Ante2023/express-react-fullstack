@@ -1,0 +1,31 @@
+  .container {
+  background-color: rgba(185, 179, 179, 0.3);
+  width: 700px;
+  height: auto;
+  margin: 10px 10px 10px 10px;
+  padding: 0px 10px 0px 20px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+
+  }
+  .container-quote{
+    margin-bottom: 15px;
+  }
+  .container-author{
+    margin-bottom: 10px;
+    color:rgb(36, 71, 94);
+    font-size: 20px;
+  }
+  .message{
+    font-size: 25px;
+  }
+  span{
+  color:rgba(72, 154, 208, 0.944);
+  font-size: 15px;
+}
+
+img{
+  margin: 10px 10px ;
+}
+

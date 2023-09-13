@@ -1,0 +1,9 @@
+.ContainerHeader{
+  /* background-color: hsla(140, 12%, 90%, 0.122); */
+}
+
+p{
+  font-size: 70px;
+  color: rgb(60, 155, 169);
+  padding: 25px;
+}

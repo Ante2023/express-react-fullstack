@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+
+<head>
+  <title>Welcome to CYF Chat</title>
+
+
+  <!-- <script>
+      var time = new Date();
+      console.log(time.getHours() + ":" + time.getMinutes() + ":" + time.getSeconds());
+      </script> -->
+</head>
+
+<body>
+
+
+
+  <!--
+    <script>
+      let d = new Date();
+      document.body.innerHTML = "<h1>Time right now is:  " + d.getHours() + ":" + d.getMinutes() + ":" + d.getSeconds()
+      "</h1>"
+      </script> -->
+
+
+
+  <h1>
+    CYF Chat
+  </h1>
+  <h2>
+    Send a message
+  </h2>
+  <form action="/messages" method="post">
+    <p>
+      Name: <input type="text" name="from" placeholder="Your Name" /> <br />
+      Message: <input type="text" name="text" placeholder="The message..." />
+      <br />
+    </p>
+    <button type="submit">
+      Send
+    </button>
+  </form>
+
+  <a href="/messages">See all messages</a>
+
+           <!-- Recoger el GET con la lista de objetos y pintarlos en una tabla
+    y add botones de modificación y elininación de cada uno de estos -->
+          <!-- <script   src="index.js"></script> -->
+          <!-- <script type="module" src="./public/js/script.js"></script> -->
+          <!-- <script src="./public/js/script.js"></script> -->
+</body>
+
+
+</html>

@@ -1,0 +1,25 @@
+{
+  "//1": "describes your app and its dependencies",
+  "//2": "https://docs.npmjs.com/files/package.json",
+  "//3": "updating this file will download and update your packages",
+  "name": "hello-express",
+  "version": "0.0.1",
+  "description": "A simple Node app built on Express, instantly up and running.",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "lodash": "^4.17.21",
+    "underscore": "^1.13.6"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.3.1",
+    "supertest": "^6.3.3",
+    "nodemon": "^2.0.20"
+  }
+}

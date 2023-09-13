@@ -1,0 +1,10 @@
+.contenedorAdd{
+  width: 80px;
+  height: 80px;
+  background-color: #ff4400ed;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 65px;
+  left: 94%;
+  cursor: pointer;
+}

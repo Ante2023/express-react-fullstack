@@ -1,0 +1,12 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+
+}
+.App {
+  text-align: center;
+  /* background-color: hsla(140, 12%, 90%, 0.122); */
+  margin: 0px 50px 0 10px;
+
+}
