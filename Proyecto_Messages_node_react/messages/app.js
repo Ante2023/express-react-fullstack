@@ -82,7 +82,20 @@ app.post(
     }
   }
 );
+
+
 /*****    DELETE    http://localhost:3001/messages/5              *****/
+
+const validateMessageById = (id) => {
+  const messageUpdateRef = messages.find((msg) => msg.id.toString() === id);
+  if (messageUpdateRef === undefined) {
+    return [false, null];
+  } else {
+    return [true, messageUpdateRef];
+  }
+};
+
+
 app.delete("/messages/:id", (request, response) => {
   const idMessage = request.params.id;
   const refToMessage = validateMessageById(idMessage);
@@ -97,14 +110,7 @@ app.delete("/messages/:id", (request, response) => {
 });
 
 /*****    PUT    http://localhost:3001/messages/1              *****/
-const validateMessageById = (id) => {
-  const messageUpdateRef = messages.find((msg) => msg.id.toString() === id);
-  if (messageUpdateRef === undefined) {
-    return [false, null];
-  } else {
-    return [true, messageUpdateRef];
-  }
-};
+
 
 app.put("/messages/:id", validateBodyRequest, (request, response) => {
   const idMessage = request.params.id;
